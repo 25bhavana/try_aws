@@ -51,13 +51,13 @@ if __name__ == "__main__":
     st.write("Streamlit app is running with dynamically installed package.")
 
 
-'''
+
 import subprocess
 import streamlit as st
 
 def install_package(package):
     subprocess.run(["pip", "install", package])
-
+'''
 # Example usage
 if __name__ == "__main__":
     st.title("Streamlit App with Dynamic Package Installation")

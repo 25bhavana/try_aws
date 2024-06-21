@@ -5,7 +5,7 @@ def install_package(package):
     subprocess.run(["pip", "install", package])
 
 # Example usage
-if _name_ == "_main_":
+if __name__ == "__main__":
     st.title("Streamlit App with Dynamic Package Installation")
 
     # Package name to install

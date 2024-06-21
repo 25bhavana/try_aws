@@ -1,4 +1,4 @@
-mport subprocess
+import subprocess
 import streamlit as st
 
 def install_package(package):
